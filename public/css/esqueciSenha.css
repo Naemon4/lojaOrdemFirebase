@@ -1,0 +1,60 @@
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px black;
+
+}
+
+section form, section div{
+
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+section form input{
+
+    margin: 10px;
+
+}
+
+div a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+section div a:hover{
+
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+
+}
+
+button{
+
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: red;
+    padding: 7px;
+
+}
+
+button:hover {
+    
+    text-decoration: underline;
+
+}
