@@ -1,0 +1,34 @@
+section{
+
+    text-align: center;
+    margin: 20px;
+    max-width: 900px;
+
+}
+
+section img{
+
+    height: 600px;
+    width: max-content;
+
+}
+
+section ul {
+
+    list-style: none;
+
+}
+
+section ul li{
+
+    padding: 20px;
+
+}
+
+section ul li:hover{
+
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+
+}

@@ -1,0 +1,61 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+html, body {
+    height: 100%; /* Garante que a altura da página ocupe 100% da tela */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Isso faz com que o main ocupe o restante do espaço disponível */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header ul, footer ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(41, 41, 41);
+
+}
+
+header ul li, footer ul li{
+
+    margin: 20px;
+
+}
+
+header ul li a, footer ul li a, footer ul li{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+header ul li a:hover, footer ul li a:hover{
+
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+
+}
+
+footer ul li a img{
+
+    max-height: 30px;
+    max-width: 30px;
+
+}
+
