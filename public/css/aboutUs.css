@@ -1,8 +1,19 @@
 section{
 
-    text-align: center;
+    text-align: justify;
     margin: 20px;
     max-width: 900px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 5px rgb(135, 140, 156);
+
+}
+
+h2{
+
+    font-size: 28px;
+    margin-bottom: 20px;
 
 }
 

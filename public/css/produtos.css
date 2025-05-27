@@ -12,7 +12,7 @@
     text-align: center;
     margin: 50px;
     padding: 20px;
-    box-shadow: 3px 4px 5px ;
+    box-shadow: 0px 4px 5px rgb(135, 140, 156);
     background-color: rgb(187, 187, 187);
     border-radius: 20px;
     width: 270px; /* Define uma largura fixa para os cards */
@@ -27,7 +27,7 @@
 
 #card:hover {
     transform: translateY(-10px); /* Eleva o card */
-    box-shadow: 13px 14px 15px ;
+    box-shadow: 00px 14px 15px rgb(135, 140, 156);
 }
 
 #card img{

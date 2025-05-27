@@ -42,13 +42,21 @@ header ul li a, footer ul li a, footer ul li{
 
     text-decoration: none;
     color: white;
+    transition: all 0.1s ease;
 
 }
 
 header ul li a:hover, footer ul li a:hover{
 
-    text-decoration: underline;
     color: rgb(255, 0, 0);
+
+}
+
+hr{
+
+    height: 2px;
+    border: none;
+    background-color: red;
 
 }
 
@@ -56,6 +64,7 @@ footer ul li a img{
 
     max-height: 30px;
     max-width: 30px;
+    border-radius: 5px;
 
 }
 

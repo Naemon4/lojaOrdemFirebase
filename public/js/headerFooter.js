@@ -10,6 +10,7 @@ function criarHeader(){
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
+        <hr>
     
     `
 
@@ -19,6 +20,7 @@ function criarFooter(){
 
     document.getElementById("footer").innerHTML = `
     
+        <hr>
         <ul>
             <li><a href="https://www.instagram.com/"><img src="../img/instaIcon.png" alt="link do instagram da empresa"></a></li>
             <li>12 12345-6789</li>

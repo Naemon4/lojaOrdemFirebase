@@ -8,7 +8,7 @@ section{
     background-color: rgb(187, 187, 187);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 3px 4px 5px black;
+    box-shadow: 0px 4px 5px rgb(135, 140, 156);
 
 }
 
@@ -26,6 +26,33 @@ section form, section div{
 section form input{
 
     margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgb(135, 140, 156);
+
+}
+
+section form input:hover{
+
+    transform:  scale(1.05);
+
+}
+
+section form input:focus{
+
+    background-color: red;
+    color: white;
+    transform: scale(1.05); /* cresce levemente */
+    box-shadow: 0px 4px 5px rgb(135, 140, 156);
+
+}
+
+section form input:focus::placeholder{
+
+    color: white;
 
 }
 
@@ -33,12 +60,12 @@ div a{
 
     text-decoration: none;
     color: black;
+    transition: all 0.16s ease;
 
 }
 
 section div a:hover{
 
-    text-decoration: underline;
     color: rgb(255, 0, 0);
 
 }
@@ -48,13 +75,15 @@ button{
     border-radius: 15px;
     border: 0;
     color: white;
-    background-color: red;
-    padding: 7px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgb(135, 140, 156);
+    transition: all 0.25s ease;
 
 }
 
 button:hover {
-    
-    text-decoration: underline;
+
+    background-color: red;
 
 }
